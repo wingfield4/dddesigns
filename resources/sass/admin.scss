@@ -1,0 +1,29 @@
+/* PAGE */
+.inner-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+.card-container {
+  flex: 1;
+  max-width: 400px;
+  min-width: 320px;
+  height: 248px;
+  border: 1px solid rgba(0, 0, 0, .34);
+  border-radius: 4px;
+  margin: 16px;
+  overflow: hidden;
+}
+
+.card-header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, .12);
+}
+

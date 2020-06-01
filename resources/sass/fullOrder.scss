@@ -1,0 +1,67 @@
+$accent-color: #85BAA1;
+$caption-color: rgba(0, 0, 0, .64);
+$font-color: #FFF;
+$footer-color: #555;
+$footer-bottom-color: #333;
+$button-hover-color: #AAA;
+$header-color: #333;
+
+.menu-container {
+  margin-bottom: 32px;
+  padding: 16px;
+  flex: 1;
+  min-width: 360px;
+}
+
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.receipt-container {
+  margin: 8px;
+  flex: 1;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px dashed $caption-color;
+  background-color: rgba(0, 0, 0, .08);
+  min-height: 600px;
+}
+
+.receipt-item-cell {
+  flex: 1;
+  padding: 8px;
+  align-items: center;
+}
+
+.receipt-bottom-item-container {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.receipt-item-container {
+  width: 100%;
+  border-bottom: 1px dashed $caption-color;
+  display: flex;
+  align-items: stretch;
+}
+
+.receipt-item-divider {
+  height: 32px;
+  //border-right: 1px dashed $caption-color;
+}
+
+.receipt-spacer {
+  flex-grow: 1;
+}
+
+.receipt-center-divider {
+  position: absolute;
+  border-right: 1px dashed $caption-color;
+  left: calc(50% - 1px);
+  height: 100%;
+}

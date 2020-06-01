@@ -1,0 +1,51 @@
+.delete-image-link {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  color: black;
+  font-size: 24px;
+}
+
+.divider {
+  height: 1px;
+  background-color: rgba(0, 0, 0, .12);
+  margin-bottom: 8px;
+}
+
+.icon-link {
+  color: rgba(0, 0, 0, .54);
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.image-container {
+  height: 128px;
+  width: 128px;
+  display: flex;
+  overflow: hidden;
+  margin: 8px;
+  position: relative;
+}
+
+.image-thumbnail-container {
+  width: 128px;
+  overflow:hidden;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.label {
+  font-weight: bold;
+  margin-block-start: .5em;
+}
+
+.title {
+  margin-block-end: .3em;
+}

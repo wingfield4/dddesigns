@@ -1,0 +1,25 @@
+.label {
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.sub-label {
+  color: rgba(0, 0, 0, .54);
+}
+
+.options-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.option-container {
+  margin-right: 8px;
+}
+
+.icon-button {
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  font-size: 24px;
+}

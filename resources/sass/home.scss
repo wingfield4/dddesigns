@@ -1,0 +1,64 @@
+$accent-color: #85BAA1;
+$font-color: #FFF;
+$footer-color: #555;
+$footer-bottom-color: #333;
+$button-hover-color: #AAA;
+$header-color: #333;
+
+$breakpoint-tablet: 768px;
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 64px;
+  }
+}
+
+.banner {
+  padding: 16px;
+  text-align: center;
+  color: #000;
+  background-color: #EEE;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (max-width: $breakpoint-tablet) {
+    background-attachment: scroll;
+  }
+}
+
+.parallax-primary {
+  background-image: url("../images/background1.jpg");
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parallax-secondary {
+  background-image: url("../images/background2.jpg");
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.quote {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.quote-container {
+  max-width: 680px;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, .34);
+  text-align: center;
+}
